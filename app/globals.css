@@ -9,7 +9,8 @@ html, body {
 
 main {
   background: #393a47;
-  height: 100vh;
+
+  height: 100%;
 }
 
 @layer utilities {

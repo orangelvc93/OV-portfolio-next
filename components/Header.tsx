@@ -6,7 +6,7 @@ const Header = () => {
 	return (
 		<TransitionComponents
 			position="bottom"
-			className="absolute z-40 inline-block w-full"
+			className="relative z-40 inline-block w-full p-7"
 		>
 			<header>
 				<div className="container justify-between max-w-6xl mx-auto md:flex">
