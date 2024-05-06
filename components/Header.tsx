@@ -1,15 +1,15 @@
+import { socialNetworks } from "@/data";
 import Link from "next/link";
 import TransitionComponents from "./TransitionComponents";
-import { socialNetworks } from "@/data";
 
 const Header = () => {
 	return (
 		<TransitionComponents
 			position="bottom"
-			className="relative z-40 inline-block w-full p-7"
+			className="absolute z-40 inline-block w-full top-6"
 		>
 			<header>
-				<div className="container justify-between max-w-6xl mx-auto md:flex">
+				<div className="container justify-between max-w-6xl mx-auto md:flex px-7">
 					<Link href="/">
 						<h1 className="my-3 text-4xl font-bold text-center md:text-left">
 							Oran
