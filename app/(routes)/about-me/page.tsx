@@ -1,6 +1,7 @@
 import TransitionPage from "@/components/TransitionPage";
 import ContainerPage from "@/components/ContainerPage";
 import Avatar from "@/components/Avatar";
+import CounterServices from "@/components/CounterServices";
 
 const PageAboutMe = () => {
 	return (
@@ -15,6 +16,7 @@ const PageAboutMe = () => {
 						trayectoria profesional
 					</span>
 				</h1>
+				<CounterServices />
 			</ContainerPage>
 		</>
 	);
