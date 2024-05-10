@@ -1,3 +1,4 @@
+"use client";
 import TransitionComponents from "@/components/TransitionComponents";
 import Image from "next/image";
 
@@ -9,8 +10,8 @@ const Avatar = () => {
 		>
 			<Image
 				src="/avatar-1.png"
-				width="400"
-				height="400"
+				width={350}
+				height={350}
 				className="w-full h-full "
 				alt="Particles "
 			/>
