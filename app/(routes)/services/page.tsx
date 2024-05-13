@@ -1,10 +1,13 @@
+import AvatarServices from "@/components/AvatarServices";
+import CircleImage from "@/components/CircleImage";
 import TransitionPage from "@/components/TransitionPage";
 
 const Services = () => {
 	return (
 		<>
 			<TransitionPage />
-			<h1>desde services</h1>
+			<CircleImage />
+			<AvatarServices />
 		</>
 	);
 };
